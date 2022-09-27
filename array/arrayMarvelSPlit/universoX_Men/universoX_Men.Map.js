@@ -3,18 +3,15 @@ var universoX_Men = ["X-Men (2000)", "X-Men 2 (2003)", "X-Men: La decisión fina
 
 
 console.log(universoX_Men);
-/*
-let modificado = universoX_Men.map(i=>i.split(/[()]/));
 
-console.log(modificado);*/
-var xMen=[];
+
 var nuevo_array = universoX_Men.map(function callback(i, index, array) {
     var modificado = i.split(/[()]/)
     modificado.pop()
     modificado[0] = modificado[0].slice(0, -1);
+    return modificado;
 
 
-    vacio.push(modificado);
 
 });
-console.log("x-men  :" + JSON.stringify(xMen, null, '\t'));
+console.log("x-men  :" + JSON.stringify(nuevo_array, null, '\t'));

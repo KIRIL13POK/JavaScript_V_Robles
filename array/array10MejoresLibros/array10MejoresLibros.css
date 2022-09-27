@@ -1,0 +1,9 @@
+body{
+    background-image: url(../../img.JS/10MejoresLibrosBody2.webp) ;
+}
+
+
+img {
+    display: flex;
+    margin: auto;
+}
