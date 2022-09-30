@@ -7,13 +7,13 @@ let mejoresLibros10 =[
     let resultadoFinal=mejoresLibros10.map(function callback(i,index){
        let modificacion = i.split(",");
        modificacion[1] = modificacion[1].slice(4,modificacion[1].length);
-       /*probando cosas
+      
        modificacion[0]=modificacion[0].split(".")
-       modificacion[0][1]=modificacion[0][1].slice(1,modificacion[0][1].length);
+       modificacion.push(modificacion[1])
        modificacion[0][0]=["Ranking: "+ modificacion[0][0]];
        modificacion[0][1]=["Titulo de libro: "+ modificacion[0][1]];
        modificacion[1]=["Autor: " + modificacion[1]];
-       *************************************************/
+       
 
        
        console.log(modificacion.length);

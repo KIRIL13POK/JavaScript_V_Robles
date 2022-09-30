@@ -1,0 +1,9 @@
+body{
+    background-image: url(../../img.JS/marcasDeCocheBody.jpeg) ;
+}
+
+
+img {
+    display: flex;
+    margin: auto;
+}
