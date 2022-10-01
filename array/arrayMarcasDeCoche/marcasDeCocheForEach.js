@@ -18,3 +18,4 @@ function dividir(i,index){
 console.log(resultadoFinal);
 console.log(resultadoFinal.length);
 
+

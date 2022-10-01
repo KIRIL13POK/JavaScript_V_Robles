@@ -1,0 +1,7 @@
+body{
+    background-image: url(../../img.JS/aliBody.png);
+}
+img {
+    display: flex;
+    margin: auto;
+}
