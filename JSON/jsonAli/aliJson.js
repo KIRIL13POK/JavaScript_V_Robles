@@ -8,7 +8,7 @@ let muhamedAli = {
     Fallecimiento: "3 de junio de 2016",
     edadFallecimiento: 74,
     Altura: "1,91 m",
-    
+
 }
 
 let carreraDeportiva = {
@@ -30,22 +30,25 @@ let combates = {
 
 
 
-console.log(carreraDeportiva);
-console.log(combates);
+//console.log(carreraDeportiva);
+//console.log(combates);
 
 
-console.log(muhamedAli.Nombre);
+//console.log(muhamedAli.Nombre);
 
 
 let modificacion = muhamedAli.Apodo
-console.log(modificacion);
+//console.log(modificacion);
 
-console.log(modificacion.length);
-modificacion[1] = modificacion[1].slice(0,-1);
-modificacion[2] = modificacion[2].slice(0,-2)
-console.log(modificacion[2].slice(0,-2));
-console.log(muhamedAli.Apodo);
+//console.log(modificacion.length);
+modificacion[1] = modificacion[1].slice(0, -1);
+modificacion[2] = modificacion[2].slice(0, -2)
+//console.log(modificacion[2].slice(0,-2));
+//console.log(muhamedAli.Apodo);
+console.log(JSON.stringify(muhamedAli));
 console.log(muhamedAli);
+console.log(muhamedAli.Apodo[1]);
+
 
 
 
