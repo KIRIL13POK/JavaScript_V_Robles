@@ -1,4 +1,4 @@
-"use strict"
+" use strict ";
 
 //let megaLista = //volcar dentro el contenido del archivo txt que está en la cerpeta
 //no copiarpegar!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -35,12 +35,12 @@ console.log(marvelOrdenCronologico);
 
 
 var resultadoFinal = marvelOrdenCronologico.map(function callback(i, index, array) {
-    var modificado = i.split(/[()]/)
+    var modificado = i.split(/[()]/);
     if (modificado.length > 3) {
-        modificado.splice(2, 2)
+        modificado.splice(2, 2);
     }
     modificado[0] = modificado[0].slice(0, -1);
-    modificado[2] = modificado[2].slice(3, modificado[2].length)
+    modificado[2] = modificado[2].slice(3, modificado[2].length);
 
     return modificado;
 

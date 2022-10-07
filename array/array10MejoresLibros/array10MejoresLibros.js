@@ -1,14 +1,14 @@
-"use strict"
-l
-console.log(mejoresLibros10);
+"use strict";
+
+
 
 let nuevoArray = mejoresLibros10.map(function callback(i,index){
-   let modificado = i.split(",")
+   let modificado = i.split(",");
    //console.log(modificado);
    //modificado[1] = modificado[1].slice(5,modificado[1].length)
   
   return modificado;
-   
+  
 
 
 

@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 /*
 -1- Añadir elemento al final y al principio.
@@ -9,7 +9,7 @@
 -6- Mostrar por la consola ciudades:Manila, Delhi,Ciudad de México.
 ********************/
 
-const ciudadesMas10 =["Tokio (Japón): 39,4 millones"," Cantón (China): 32,6 millones",". Shanghái (China): 29,6 millones","Yakarta (Indonesia): 27 millones","Delhi (India): 25,3 millones","Seúl (Corea): 24,2 millones"," Karachi (Pakistán): 23,2 millones"," Bombay (India): 22,6 millones"," Manila (Filipinas): 22,5 millones","Ciudad de México (México): 22,2 millones"]
+const ciudadesMas10 = ["Tokio (Japón): 39,4 millones"," Cantón (China): 32,6 millones",". Shanghái (China): 29,6 millones","Yakarta (Indonesia): 27 millones","Delhi (India): 25,3 millones","Seúl (Corea): 24,2 millones"," Karachi (Pakistán): 23,2 millones"," Bombay (India): 22,6 millones"," Manila (Filipinas): 22,5 millones","Ciudad de México (México): 22,2 millones"]
 
 //******************1********************
 console.log(ciudadesMas10);
